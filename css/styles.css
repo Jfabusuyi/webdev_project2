@@ -3,7 +3,7 @@ body.cruise-page {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: #ffffff;
+  color: #00ff08;
 }
 
 body.home-page {
@@ -31,11 +31,10 @@ body {
   font-family: "Arial", "Helvetica", sans-serif;
 }
 
-}
-
 h1, h2, h3 {
   text-align: center;
   margin-top: 2rem;
+  font-family: 'Georgia', serif;
 }
 
 section {
@@ -44,6 +43,30 @@ section {
   max-width: 80%;
 }
 
+nav {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
 
 ul {
   list-style-type: none;
@@ -70,6 +93,7 @@ ul li a:hover {
 p, li {
   text-align: left;
   font-size: 1.1em;
+  line-height: 1.8;
 }
 
 @media screen and (max-width: 768px) {
@@ -77,21 +101,19 @@ p, li {
     max-width: 95%;
   }
   a {
-  color: #0066cc;
-  text-decoration: none;
-}
-a:hover {
-  color: #ff6600;
-  text-decoration: underline;
-}
+    color: #0066cc;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+  }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
 
   ul li {
     margin-right: 8px;
